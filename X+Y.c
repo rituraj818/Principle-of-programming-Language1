@@ -3,5 +3,5 @@ void main()
 {
 	int x,y;
 	scanf("%d %d",&x,&y);
-	printf("%d   %d",(x+y)/(x-y),(x+y)*(x-y));
+	printf("%f   %f",(float)(x+y)/(x-y),(float)(x+y)*(x-y));
 }
